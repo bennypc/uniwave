@@ -78,8 +78,8 @@ const questions = [
     title: 'What would you have done differently if you ran the AMS?',
     body: `
       <p>
-      As a student, I believe that the AMS should be run differently. We should be given greater input into how the AMS operates and how our tuition money is spent. We should have more of a say in how our student society is governed, and the decisions being made should involve input from the student body. We should also be given more resources to help us find our way around campus, understand our rights, and become more involved in the AMS. </p>
-      <p>The AMS should also focus more on sustainability initiatives and social justice issues. We should see more initiatives to reduce waste, increase recycling and composting, and provide more support for marginalized students. We should also see more investment in activities that create a more welcoming and inclusive environment, such as more cultural and educational events. We should also prioritize mental health and well-being initiatives, as our student body needs these resources now more than ever.</p>
+      As a student, I believe that the AMS should be run differently. We should be given greater input into how the AMS operates and how our tuition money is spent.</p>
+      <p>The AMS should also focus more on sustainability initiatives and social justice issues. We should see more initiatives to reduce waste, increase recycling and composting, and provide more support for marginalized students.</p>
     `,
   },
   // More questions...
