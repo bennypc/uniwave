@@ -82,6 +82,26 @@ const questions = [
       <p>The AMS should also focus more on sustainability initiatives and social justice issues. We should see more initiatives to reduce waste, increase recycling and composting, and provide more support for marginalized students.</p>
     `,
   },
+  {
+    id: '12321',
+    likes: '432',
+    replies: '89',
+    views: '54.7k',
+    author: {
+      name: 'Bryan Deme',
+      imageUrl:
+        'https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXNpYW4lMjBtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+      href: '#',
+    },
+    date: 'December 9 at 11:43 AM',
+    datetime: '2023-12-09T11:43:00',
+    href: '#',
+    title:
+      'Anyone else kinda disappointed by the recent block party lineups and ticket prices?',
+    body: `
+      <p>I’ve always wanted to go at least once during my undergraduate degree, but the 2023 lineup is not even close to being worth $60-80 for a ticket… I know the live music industry has had to jack up their prices since Covid, but it still sucks.</p>
+    `,
+  },
   // More questions...
 ];
 const whoToFollow = [
