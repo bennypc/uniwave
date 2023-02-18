@@ -75,10 +75,11 @@ const questions = [
     date: 'December 9 at 11:43 AM',
     datetime: '2023-12-09T11:43:00',
     href: '#',
-    title: 'What would you have done differently if you ran Jurassic Park?',
+    title: 'What would you have done differently if you ran the AMS?',
     body: `
-      <p>Jurassic Park was an incredible idea and a magnificent feat of engineering, but poor protocols and a disregard for human safety killed what could have otherwise been one of the best businesses of our generation.</p>
-      <p>Ultimately, I think that if you wanted to run the park successfully and keep visitors safe, the most important thing to prioritize would be&hellip;</p>
+      <p>
+      As a student, I believe that the AMS should be run differently. We should be given greater input into how the AMS operates and how our tuition money is spent. We should have more of a say in how our student society is governed, and the decisions being made should involve input from the student body. We should also be given more resources to help us find our way around campus, understand our rights, and become more involved in the AMS. </p>
+      <p>The AMS should also focus more on sustainability initiatives and social justice issues. We should see more initiatives to reduce waste, increase recycling and composting, and provide more support for marginalized students. We should also see more investment in activities that create a more welcoming and inclusive environment, such as more cultural and educational events. We should also prioritize mental health and well-being initiatives, as our student body needs these resources now more than ever.</p>
     `,
   },
   // More questions...
