@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { app, database } from '../../firebaseConfig';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -42,12 +43,12 @@ export default function Login() {
               </h2>
               <p className="mt-2 text-sm text-gray-600">
                 Or{' '}
-                <a
+                <Link
                   href="/signup"
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
                   create a new account
-                </a>
+                </Link>
               </p>
             </div>
 
