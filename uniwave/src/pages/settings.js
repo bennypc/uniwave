@@ -16,6 +16,7 @@ import {
   UserGroupIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 const user = {
   name: 'Chelsea Hagon',
@@ -150,13 +151,13 @@ export default function Home() {
                   <div className="relative flex justify-between lg:gap-8 xl:grid xl:grid-cols-12">
                     <div className="flex md:absolute md:inset-y-0 md:left-0 lg:static xl:col-span-2">
                       <div className="flex flex-shrink-0 items-center">
-                        <a href="/">
+                        <Link href="/">
                           <img
                             className="block h-8 w-auto"
                             src="/logos/ubc.png"
                             alt="Your Company"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6">
@@ -329,7 +330,7 @@ export default function Home() {
                   <div className="mx-auto mt-6 max-w-3xl px-4 sm:px-6">
                     <a
                       href="#"
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-rose-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-rose-700"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#0055B7] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-rose-700"
                     >
                       New Post
                     </a>

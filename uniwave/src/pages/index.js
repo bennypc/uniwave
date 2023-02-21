@@ -339,7 +339,7 @@ export default function Home() {
                   <div className="mx-auto mt-6 max-w-3xl px-4 sm:px-6">
                     <a
                       href="#"
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-rose-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-rose-700"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#0055B7] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-rose-700"
                     >
                       New Post
                     </a>
