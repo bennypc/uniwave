@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import { Fragment } from 'react';
@@ -42,7 +41,7 @@ const navigation = [
 ];
 const userNavigation = [
   { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
+  { name: 'Settings', href: '/settings' },
   { name: 'Sign out', href: '#' },
 ];
 const communities = [

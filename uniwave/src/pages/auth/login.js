@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { app, database } from '../../firebaseConfig';
+import { app, database } from '../../../firebaseConfig';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
 import Link from 'next/link';

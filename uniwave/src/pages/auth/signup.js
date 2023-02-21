@@ -1,9 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
-import { app, database } from '../../firebaseConfig';
+import { app } from '../../../firebaseConfig';
+import { collection, addDoc, getFirestore } from 'firebase/firestore';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { useState } from 'react';
 import Link from 'next/link';
+
+const db = getFirestore(app);
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -18,6 +21,8 @@ export default function Login() {
         // Signed in
         const user = userCredential.user;
         console.log(user);
+
+        writeUserData(user.uid, 'Benny', 'benny.pincha@gmail.com');
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -26,6 +31,19 @@ export default function Login() {
         // ..
       });
   };
+
+  async function writeUserData(userId, name, email) {
+    try {
+      const docRef = await addDoc(collection(db, 'users'), {
+        userID: userId,
+        name: name,
+        email: email,
+      });
+      console.log('Document written with ID: ', docRef.id);
+    } catch (e) {
+      console.error('Error adding document: ', e);
+    }
+  }
 
   return (
     <>
